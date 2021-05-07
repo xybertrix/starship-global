@@ -295,9 +295,9 @@ Interactive
 /*
 Slideshow Stylings
 */
-.site__slildeshow__container{
+/* .site__slildeshow__container{
   background: url('./img/overlay_mod.png');
-}
+} */
 
 .site__vision-and-mission{
   background: url('./img/Map with Air Craft.jpg') center center/cover;
@@ -6097,6 +6097,10 @@ video {
   border-color: rgba(30, 58, 138, var(--tw-border-opacity));
 }
 
+.hover\:border-l-4:hover{
+  border-left-width: 4px;
+}
+
 .focus\:border-transparent:focus{
   border-color: transparent;
 }
@@ -11406,6 +11410,10 @@ video {
 }
 
 .pl-3{
+  padding-left: 0.75rem;
+}
+
+.hover\:pl-3:hover{
   padding-left: 0.75rem;
 }
 
